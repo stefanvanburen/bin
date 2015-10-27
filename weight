@@ -1,0 +1,12 @@
+#!/bin/sh
+weightfile=$HOME/fitness/weight.log
+if [ $# -ne 1 ]
+then
+    cat $weightfile
+    break
+else
+    date "+%Y.%m.%d%n%T" >> $weightfile
+    echo $1 >> $weightfile
+    echo "" >> $weightfile
+    exit 0
+fi
