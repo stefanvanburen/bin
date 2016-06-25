@@ -1,0 +1,5 @@
+#!/bin/bash
+
+source ~/.instapaper.auth
+
+curl -S -s -u "$USER":"$PASS" -X POST -w "%{http_code}" "https://www.instapaper.com/api/add?url=$1"
