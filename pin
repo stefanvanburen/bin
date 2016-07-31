@@ -1,0 +1,12 @@
+#!/bin/bash
+
+source ~/.pinboard.key
+
+for url in "$@"; do
+    req="https://api.pinboard.in/v1/posts/add?auth_token=$PINBOARDKEY&url=http://$url&description=pinupload&toread=yes"
+    echo "$req"
+    resp=$(curl -XGET -S -s "$req")
+    grep -E "done" "$resp"
+    # API call wait
+    sleep 3
+done
