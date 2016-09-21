@@ -1,9 +1,9 @@
 #!/bin/bash
 
-weightfile=$HOME/fitness/weight.log
+weightfile=$HOME/Dropbox/assorted/fitness/weight.log
 
 if [ $# -ne 1 ]; then
-    cat "$weightfile"
+    less "$weightfile"
 else
     { date "+%Y.%m.%d%n%T"; echo "$1"; echo ""; } >> "$weightfile"
 fi
