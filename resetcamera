@@ -1,4 +1,4 @@
 #!/bin/bash
 sudo killall VDCAssistant
 sudo killall AppleCameraAssistant
-open "/Applications/Photo\ Booth.app"
+open '/Applications/Photo Booth.app/'
