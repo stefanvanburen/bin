@@ -1,0 +1,1 @@
+other/kakoune/src/kak
