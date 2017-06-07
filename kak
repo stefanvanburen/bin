@@ -1,1 +1,1 @@
-other/kakoune/src/kak
+build/kakoune/src/kak
