@@ -1,0 +1,10 @@
+#!/bin/bash
+
+name=$(echo "$1" | cut -d "/" -f 4)
+
+curl -sS -X GET "$1" | grep "jpg:large" | while read -r urls; do
+    file="$name-$(uuidgen).jpg"
+    url=$(echo $urls | cut -f 3 -d ' ' | cut -f 2 -d '"')
+    curl -Ss -o "$file" "$url"
+    mv "$file" ~/tmp
+done
