@@ -1,3 +1,5 @@
 #!/bin/bash
 
+# This script works particularly well for youtube videos (as it uses the --mark-watched flag)
+# Downloads the audio with preference for mp3 format - useful for overcast.fm uploads
 youtube-dl -x --mark-watched --audio-format "mp3" -o "$HOME/Downloads/%(title)s.%(ext)s" "$1"
