@@ -10,3 +10,6 @@
 [submodule "build/kakoune"]
 	path = build/kakoune
 	url = https://github.com/mawww/kakoune
+[submodule "build/parallel"]
+	path = build/parallel
+	url = https://github.com/mmstick/parallel
