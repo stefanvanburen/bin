@@ -1,0 +1,9 @@
+[submodule "build/hexd"]
+	path = build/hexd
+	url = https://github.com/FireyFly/hexd
+[submodule "build/pixd"]
+	path = build/pixd
+	url = https://github.com/FireyFly/pixd
+[submodule "build/dekryptize"]
+	path = build/dekryptize
+	url = https://github.com/mjosaarinen/dekryptize
