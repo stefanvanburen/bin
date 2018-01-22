@@ -7,3 +7,6 @@
 [submodule "build/dekryptize"]
 	path = build/dekryptize
 	url = https://github.com/mjosaarinen/dekryptize
+[submodule "build/kakoune"]
+	path = build/kakoune
+	url = https://github.com/mawww/kakoune
