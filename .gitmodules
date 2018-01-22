@@ -4,3 +4,12 @@
 [submodule "build/parallel"]
 	path = build/parallel
 	url = https://github.com/mmstick/parallel
+[submodule "build/dekryptize"]
+	path = build/dekryptize
+	url = https://github.com/mjosaarinen/dekryptize
+[submodule "build/pixd"]
+	path = build/pixd
+	url = https://github.com/FireyFly/pixd
+[submodule "build/hexd"]
+	path = build/hexd
+	url = https://github.com/FireyFly/hexd
