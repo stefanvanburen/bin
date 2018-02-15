@@ -7,9 +7,9 @@
 [submodule "build/dekryptize"]
 	path = build/dekryptize
 	url = git@github.com:mjosaarinen/dekryptize.git
-[submodule "bin/hexd"]
-	path = bin/hexd
-	url = git@github.com:FireyFly/hexd.git
 [submodule "build/pixd"]
 	path = build/pixd
 	url = git@github.com:FireyFly/pixd.git
+[submodule "build/hexd"]
+	path = build/hexd
+	url = git@github.com:FireyFly/hexd.git
