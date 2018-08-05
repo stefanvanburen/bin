@@ -1,9 +1,9 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-weightfile=$HOME/Dropbox/assorted/fitness/weight.log
+# this requires the WEIGHTFILE environment variable to be set
 
 if [ $# -ne 1 ]; then
-    less "$weightfile"
+    less "$WEIGHTFILE"
 else
-    { date "+%Y.%m.%d%n%T"; echo "$1"; echo ""; } >> "$weightfile"
+    { date "+%Y.%m.%d%n%T"; echo "$1"; echo ""; } >> "$WEIGHTFILE"
 fi

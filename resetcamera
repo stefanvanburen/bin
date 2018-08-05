@@ -1,4 +1,7 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+# this used to un-break the OSX camera - not sure now
+
 sudo killall VDCAssistant
 sudo killall AppleCameraAssistant
 open '/Applications/Photo Booth.app/'

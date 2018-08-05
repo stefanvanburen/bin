@@ -1,5 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-source ~/.instapaper.auth
+# requires instapaper credentials in ~/.netrc
 
-curl -S -s -u "$USER":"$PASS" -X POST -w "%{http_code}" "https://www.instapaper.com/api/add?url=$1"
+curl -S -s --netrc -X POST -w "%{http_code}" "https://www.instapaper.com/api/add?url=$1"

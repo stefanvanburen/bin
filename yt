@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # This script works particularly well for youtube videos (as it uses the --mark-watched flag)
 # Downloads the audio with preference for mp3 format - useful for overcast.fm uploads
