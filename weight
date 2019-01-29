@@ -3,7 +3,11 @@
 # this requires the WEIGHTFILE environment variable to be set
 
 if [ $# -ne 1 ]; then
-    less "$WEIGHTFILE"
+	less "$WEIGHTFILE"
 else
-    { date "+%Y.%m.%d%n%T"; echo "$1"; echo ""; } >> "$WEIGHTFILE"
+	{
+		date "+%Y.%m.%d%n%T"
+		echo "$1"
+		echo ""
+	} >>"$WEIGHTFILE"
 fi
